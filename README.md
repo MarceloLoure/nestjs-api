@@ -72,3 +72,21 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 # nestjs-api
+
+##
+Para funcionamento da API em DEV, você vai precisar rodar esses comandos:
+
+
+npm install
+
+em um terminal
+docker-compose up
+
+em outro terminal
+docker compose exec db bash
+mysql -uroot -proot
+
+em outro terminal
+npm run fixture
+npm run start:dev
+
